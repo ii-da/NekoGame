@@ -1,4 +1,6 @@
 package com.example.nekogame;
 
-public class ClearActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ClearActivity extends AppCompatActivity {
 }

@@ -1,5 +1,6 @@
-package com.example.nekogame;
+package com.example.nekoapp;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,9 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     private ImageView startButton;
+    public static Intent newIntent(Context context) {
+        return new Intent(context, MainActivity.class);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,10 +31,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         startButton = findViewById(R.id.start_button);
-        startButton.setOnClickListener(view -> {
-            Intent intent = GameActivity.newIntent(MainActivity.this);
-            startActivity(intent);
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = GameActivity.newIntent(MainActivity.this);
+                startActivity(intent);
+            }
         });
-
     }
 }

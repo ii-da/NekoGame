@@ -8,19 +8,20 @@
     android:layout_height="match_parent"
     android:background="@drawable/top_bg"
     tools:context=".MainActivity">
-    
+
     <ImageView
         android:layout_width="323dp"
         android:layout_height="141dp"
         android:src="@drawable/title"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="120dp"/>
-    
+
     <ImageView
+        android:id="@+id/start_button"
         android:layout_width="204dp"
         android:layout_height="67dp"
         android:src="@drawable/start_btn"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="60dp"/>
-        
+
 </FrameLayout>
