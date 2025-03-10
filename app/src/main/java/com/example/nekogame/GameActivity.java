@@ -7,6 +7,8 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.nekoapp.R;
+
 public class GameActivity extends AppCompatActivity {
 
     public static Intent newIntent(Context context) {
