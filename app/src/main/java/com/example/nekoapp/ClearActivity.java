@@ -19,7 +19,8 @@ public class ClearActivity extends AppCompatActivity {
     private static final String KEY_COUNT = "key_count";
     private ImageView clearImageView;
     private TextView clearCommentTextView;
-    private FrameLayout backBtn;
+    private TextView levelCommentTextView;
+    private ImageView backBtn;
 
     public static Intent newIntent(Context context, int count) {
         Intent intent = new Intent(context, ClearActivity.class);
@@ -34,6 +35,7 @@ public class ClearActivity extends AppCompatActivity {
 
         clearImageView = findViewById(R.id.clear_view);
         clearCommentTextView = findViewById(R.id.clear_comment);
+        levelCommentTextView = findViewById(R.id.level_comment);
         backBtn = findViewById(R.id.back_button);
 
         int count = getIntent().getIntExtra(KEY_COUNT, -1);
@@ -41,19 +43,23 @@ public class ClearActivity extends AppCompatActivity {
         if (70 <= count) {
             // 70以上の時　いちばんいいやつ
             clearImageView.setImageResource(R.drawable.love);
-            clearCommentTextView.setText("");
+            clearCommentTextView.setText("しあわせ♡♡♡");
+            levelCommentTextView.setText("　  猫なでレベル★★★★");
         } else if (50 <= count) {
             // 50以上　ふつう
             clearImageView.setImageResource(R.drawable.standup);
-            clearCommentTextView.setText("ありがとう～");
+            clearCommentTextView.setText("なでるの上手だね");
+            levelCommentTextView.setText("　  猫なでレベル★★★☆");
         } else if (30 <= count) {
             // 30以上　ちょっと悪い
             clearImageView.setImageResource(R.drawable.daze);
-            clearCommentTextView.setText("");
+            clearCommentTextView.setText("・・・ありがとう");
+            levelCommentTextView.setText("　  猫なでレベル★★☆☆");
         } else {
             // 最悪
             clearImageView.setImageResource(R.drawable.angry);
-            clearCommentTextView.setText("");
+            clearCommentTextView.setText("そうじゃない！！！");
+            levelCommentTextView.setText("　  猫なでレベル★☆☆☆");
         }
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -29,7 +29,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4d6136e-bfe7-4ff7-9afd-4c005944fd0b" name="Changes" comment="" />
+    <list default="true" id="f4d6136e-bfe7-4ff7-9afd-4c005944fd0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/backbtn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nekoapp/ClearActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nekoapp/ClearActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shape_timer_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_timer_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_clear.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_clear.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_game.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +45,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\kobi8\.android\avd\Pixel_7a_API_35.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -85,6 +92,7 @@
       <recent name="com.example.nekoapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kobi8\Desktop\iida\document\NekoGame\app\src\main\res\drawable" />
       <recent name="C:\Users\kobi8\Desktop\iida\document\NekoApp\app\src\main\res\drawable" />
     </key>
   </component>
